@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.baby-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.baby-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.baby-date {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.countdown-section {
+  background: linear-gradient(180deg, #0f172a, #1e293b);
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+.countdown-label {
+  color: #10b981;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: serif;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.countdown-box {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  min-width: 70px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.countdown-box span {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.countdown-box small {
+  color: #64748b;
+  font-size: 14px;
+}

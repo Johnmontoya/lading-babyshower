@@ -1,0 +1,30 @@
+{
+  "eventName": "Baby Shower de Pollictor Junior",
+  "babyName": "Pollictor Junior",
+  "eventDate": "2026-04-19",
+  "eventTime": "16:00",
+  "location": {
+    "name": "Cantina del Cairo",
+    "address": "Cantina del Cairo",
+    "mapUrl": "https://maps.app.goo.gl/example"
+  },
+  "gift": {
+    "message": "Tu presencia es el mejor regalo, pero si deseas hacernos un presente, puedes colaborar con nosotros aquí:",
+    "accountNumber": "Alias: LUCIA.MAMA.BANCO / CBU: 0000003100012345678901",
+    "bankName": "Banco Central",
+    "qrCodeUrl": ""
+  },
+  "assist": {
+    "message": "Por favor, confirma tu asistencia antes del 1 de octubre para que podamos preparar todo perfectamente.",
+    "formUrl": "https://forms.gle/example"
+  },
+  "footer": {
+    "message": "¡Te esperamos con mucha ilusión!",
+    "socialLinks": [
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/example"
+      }
+    ]
+  }
+}
