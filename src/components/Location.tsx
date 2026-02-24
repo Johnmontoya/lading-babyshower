@@ -24,7 +24,7 @@ const Location = ({
 }: LocationSectionProps) => {
     return (
         <div
-            className="min-h-screen flex flex-col items-center justify-center -mt-8"
+            className="min-h-screen flex flex-col items-center justify-center p-4"
         >
             <div className="relative rounded-[2rem] w-full space-y-16 max-w-sm overflow-hidden text-center"
                 style={{

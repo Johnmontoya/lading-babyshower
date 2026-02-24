@@ -53,7 +53,7 @@ const Gift: React.FC<GiftListProps> = ({ gifts, storeName, storeUrl }) => {
         : gifts.filter(g => g.category === activeFilter)
     return (
         <div
-            className="relative flex flex-col items-center px-6 pb-10 pt-8 gap-6 -mt-10">
+            className="relative flex flex-col items-center p-4 gap-6">
             <div className="relative rounded-[2rem] w-full space-y-16 max-w-sm overflow-hidden text-center"
                 style={{
                     background: 'linear-gradient(155deg, #fdf8f1 0%, #f5ecdf 100%)',

@@ -1,11 +1,12 @@
 import ConfirmButton from './Hero/ConfirmButton'
 import { motion } from 'framer-motion'
 import Illustration from './Hero/Illustration'
+import BotanicalCorner from './Counter/BotanicalCorner'
 
 const EVENT = {
     date: '2026-04-19',
     time: '16:00 hs',
-    whatsapp: '5491112345678',   // número con código de país, sin "+"
+    whatsapp: '573128241064',   // número con código de país, sin "+"
     babyName: 'Pollictor Junior',
 }
 
@@ -20,6 +21,7 @@ const Hero = () => {
         <div
             className="min-h-screen flex items-center justify-center p-4"
         >
+
             <motion.div
                 className="relative w-full max-w-sm overflow-hidden rounded-[2.2rem]"
                 style={{
@@ -32,6 +34,8 @@ const Hero = () => {
             >
 
                 {/* ── TOP SECTION: Illustration ── */}
+                <BotanicalCorner position="bl" />
+                <BotanicalCorner position="br" />
                 <div
                     className="relative w-full"
                     style={{
@@ -39,6 +43,11 @@ const Hero = () => {
                         paddingBottom: '0',
                     }}
                 >
+                    {/* Botanical corners */}
+                    <BotanicalCorner position="tl" />
+                    <BotanicalCorner position="tr" />
+
+
                     {/* Subtle top bokeh dots */}
                     {[
                         { x: '12%', y: '8%', size: 6, color: '#ff9090', delay: 0 },
@@ -89,12 +98,12 @@ const Hero = () => {
 
                     {/* Accent line */}
                     <motion.div
-                        className="flex items-center gap-2 mt-1"
+                        className="flex justify-center items-center gap-2 mt-1"
                         {...fadeUp(0.15)}
                     >
                         <div className="h-px w-10" style={{ background: 'linear-gradient(to right, transparent, #2a7a6e)' }} />
                         <span
-                            className="font-sans text-[0.65rem] uppercase tracking-[0.22em] font-bold"
+                            className="w-full font-sans text-[0.65rem] uppercase tracking-[0.22em] font-bold"
                             style={{ color: '#2a7a6e' }}
                         >
                             ¡Nos hace mucha ilusión!
