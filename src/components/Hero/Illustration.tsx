@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import src from '../../assets/hero/hero4.mp4'
-import poster from '../../assets/hero/poster.png'
+import poster from '../../assets/hero/poster.jpg'
 
 export default function Illustration() {
     const videoRef = useRef(null);
