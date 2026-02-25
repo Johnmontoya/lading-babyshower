@@ -7,7 +7,7 @@ interface ConfirmButtonProps {
 }
 
 export default function ConfirmButton({
-    whatsappNumber = '5491112345678',
+    whatsappNumber = '573128241064',
     message = '¡Hola! Confirmo mi asistencia al Baby Shower de Pollictor Junior 🍼🐾',
 }: ConfirmButtonProps) {
     const [confirmed, setConfirmed] = useState(false)

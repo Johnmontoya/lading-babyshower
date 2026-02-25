@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import FamilyIllustration from './Footer/FamilyIllustration'
+import BotanicalCorner from './Counter/BotanicalCorner'
 
 interface ClosingSectionProps {
     names: string        // "Joaco, Tatiana y Pollictor Junior"
@@ -18,13 +19,18 @@ const Footer = ({ names }: ClosingSectionProps) => {
             className="relative flex flex-col items-center px-6 pb-10 pt-8 gap-6 -mt-10">
             <div className="relative rounded-[2rem] w-full space-y-8 max-w-sm overflow-hidden text-center"
                 style={{
-                    background: 'linear-gradient(155deg, #fdf8f1 0%, #f5ecdf 100%)',
+                    background: 'linear-gradient(155deg, #F3EBEB 0%, #F3EBEB 100%)',
                     boxShadow:
                         '0 12px 48px rgba(107,76,59,0.14), 0 2px 8px rgba(107,76,59,0.08), inset 0 1px 0 rgba(255,255,255,0.8)',
                     padding: '44px 32px 52px',
                 }}>
 
                 {/* ── Botanical corner decorations ── */}
+                <BotanicalCorner position="tl" />
+                <BotanicalCorner position="tr" />
+                <BotanicalCorner position="bl" />
+                <BotanicalCorner position="br" />
+
                 {/* Top-left */}
                 <div className="absolute top-0 left-0 w-28 h-28 opacity-50 pointer-events-none">
                     <svg viewBox="0 0 112 112" fill="none">

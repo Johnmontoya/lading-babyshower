@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import GiftCard from './Gift/GiftCard'
+import BotanicalCorner from './Counter/BotanicalCorner'
 
 export interface GiftItem {
     id: number
@@ -61,6 +62,9 @@ const Gift: React.FC<GiftListProps> = ({ gifts, storeName, storeUrl }) => {
                         '0 12px 48px rgba(107,76,59,0.14), 0 2px 8px rgba(107,76,59,0.08), inset 0 1px 0 rgba(255,255,255,0.8)',
                     padding: '44px 32px 52px',
                 }}>
+
+                <BotanicalCorner position="tl" />
+                <BotanicalCorner position="tr" />
 
 
                 {/* Section header */}

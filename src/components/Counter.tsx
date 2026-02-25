@@ -4,7 +4,7 @@ import GoldDivider from './Counter/GoldDivider'
 import Illustration from './Counter/Illustration'
 import TimeBlock from './Counter/TimeBlock'
 import { useCountdown } from '../hooks/useCountdown'
-import flores from '../assets/flores.svg'
+import flores from '../assets/flores2.svg'
 
 // ⚠️  Change this to the real wedding date!
 const WEDDING_DATE = new Date('2026-12-31T16:00:00')
@@ -29,7 +29,7 @@ export default function Time() {
     return (
         <>
             <div className="absolute w-full h-full">
-                <img src={flores} alt="Background" className="z-30 absolute -top-4 right-0 w-64 h-44 object-cover" />
+                <img src={flores} alt="Background" className="z-30 absolute -top-3 -right-4 w-64 h-64 object-cover" />
             </div>
             <div
                 className="min-h-screen flex items-center justify-center p-4"

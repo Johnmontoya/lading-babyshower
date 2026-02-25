@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import src from "../../assets/footer/footer.mp4"
+import src from "../../assets/footer/footer2.mp4"
 import poster from "../../assets/hero/poster.png"
 
 export default function FamilyIllustration() {

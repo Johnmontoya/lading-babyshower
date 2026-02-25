@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import BotanicalCorner from './Counter/BotanicalCorner'
-import flores from '../assets/flores.svg'
+import flores from '../assets/flores2.svg'
 
 interface LocationSectionProps {
     venue: string
@@ -132,7 +132,7 @@ const Location = ({
                             rel="noopener noreferrer"
                             className="flex items-center justify-center gap-2 py-2.5 rounded-xl font-sans text-sm font-semibold w-full"
                             style={{
-                                background: 'linear-gradient(135deg, #2a7a6e 0%, #1a5a50 100%)',
+                                background: 'linear-gradient(135deg, #7a572aff 0%, #5a311aff 100%)',
                                 color: 'white',
                                 boxShadow: '0 3px 12px rgba(42,90,80,0.25)',
                             }}
@@ -159,7 +159,7 @@ const Location = ({
                 </div>
             </div>
             <div className="relative w-full h-full">
-                <img src={flores} alt="Background" className="z-30 absolute -top-40 left-0 rotate-180 w-64 h-44 object-cover" />
+                <img src={flores} alt="Background" className="z-30 absolute -top-60 left-0 rotate-180 w-64 h-64 object-cover" />
             </div>
         </>
     )
